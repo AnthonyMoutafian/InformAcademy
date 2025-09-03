@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ինֆորմ Ակադեմիա | Սովորիր ծրագրավորում Հայաստանում</title>
+  <meta name="description" content="Մասնագիտական ծրագրավորման դասընթացներ Հայաստանում: Full Stack, Frontend, Data Analysis և այլ ուղղություններ:">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ինֆորմատիկա | Կոդինգ Ակադեմիա | Սովորիր ծրագրավորում Հայաստանում">
+  <meta property="og:description" content="Մասնագիտական ծրագրավորման դասընթացներ Հայաստանում">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="/assets/og-image.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip to content link -->
+  <a href="#main-content" class="skip-link">Անցնել հիմնական բովանդակությանը</a>
+
+  <!-- Top announcement bar -->
+  <div class="announcement">
+    <div class="container">
+      <p class="announcement__text">
+        🎉 Սեպտեմբերի ընդունելությունը բաց է․ Վաղ գրանցման զեղչ՝ 10%
+      </p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo" aria-label="AM Academy">
+        <img src="/assets/logo.png" alt="AM Academy" class="nav__logo-img">
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Menu">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      
+      <ul class="nav__list" id="nav-menu">
+        <li class="nav__item"><a href="#courses" class="nav__link">Դասընթացներ</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">Մեր մասին</a></li>
+        <li class="nav__item"><a href="#instructors" class="nav__link">Դասախոսներ</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Կապ</a></li>
+      </ul>
+      
+      <a href="#contact" class="btn btn--primary nav__cta">Գրանցվել</a>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main-content">
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero__background">
+        <div class="hero__shape hero__shape--1"></div>
+        <div class="hero__shape hero__shape--2"></div>
+        <div class="hero__shape hero__shape--3"></div>
+      </div>
+      
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1 class="hero__title">
+              Սովորիր համակարգչի հետ աշխատել+ ծրագրավորում՝ կարիերայի արագ մեկնարկով
+            </h1>
+            <p class="hero__subtitle">
+              Օնլայն անհատական դասընթացներ՝ վերապատրաստման աջակցությամբ։ 
+              Ստեղծիր քո ապագան տեխնոլոգիաների ոլորտում։
+            </p>
+            <div class="hero__cta">
+              <a href="#courses" class="btn btn--primary btn--large">Սկսել հիմա</a>
+              <a href="#courses" class="btn btn--secondary btn--large">Դասընթացներ</a>
+            </div>
+          </div>
+          
+          <div class="hero__image">
+            <img src="/assets/hero-illustration.jpg" alt="Ծրագրավորման ուսուցման գործընթաց" class="hero__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses section -->
+    <section class="courses" id="courses">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Դասընթացներ</h2>
+          <p class="section-header__subtitle">
+            Ընտրիր քո ուղղությունը և սկսիր մասնագիտական զարգացումը
+          </p>
+        </div>
+
+        <div class="courses__grid">
+          <article class="course-card">
+            <div class="course-card__icon">
+              <img src="/assets/icon-fullstack.svg" alt="Full Stack" class="course-card__icon-img">
+            </div>
+            <h3 class="course-card__title">Ինֆորմատիկա</h3>
+            <p class="course-card__description">
+              Սովորիր ամբողջական վեբ զարգացման գործընթացը՝ տվյալների բազայից մինչև օգտագործողի մակերես։ +ԲՈՆՈՒՍ Ծրագրավորում Սկսնակների համար 
+            </p>
+            <div class="course-card__tags">
+              <span class="tag tag--beginner">Սկսնակ</span>
+              <span class="tag tag--intermediate">Բարդ</span>
+            </div>
+            <div class="course-card__meta">
+              <span class="course-card__duration">10 ամիս</span>
+              <span class="course-card__price">35000 դրամ/ամիս</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us section -->
+    <section class="features" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Ինչու՞ ընտրել մեզ</h2>
+          <p class="section-header__subtitle">
+            Մեր առավելությունները, որոնք կօգնեն քեզ հասնել նպատակին
+          </p>
+        </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img src="/assets/icon-mentors.svg" alt="Մենտորներ" class="feature-card__icon-img">
+            </div>
+            <h3 class="feature-card__title">Անհատական մենտորներ</h3>
+            <p class="feature-card__description">
+              Յուրաքանչյուր ուսանողի համար նշանակվում է անհատական մենտոր՝ անընդհատ աջակցության համար։
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img src="/assets/icon-flexible.svg" alt="Ճկուն ժամանակացույց" class="feature-card__icon-img">
+            </div>
+            <h3 class="feature-card__title">Ճկուն ժամանակացույց</h3>
+            <p class="feature-card__description">
+              Ընտրիր քո հարմար ժամանակը՝ առավոտյան, երեկոյան կամ հեռավար ուսուցման ձևաչափ։
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructors section -->
+    <section class="instructors" id="instructors">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Մեր դասախոսները</h2>
+          <p class="section-header__subtitle">
+            Փորձառու մասնագետներ, ովքեր աշխատում են առաջնային տեխնոլոգիական ընկերություններում
+          </p>
+        </div>
+
+        <div class="instructors__grid">
+          <div class="instructor-card">
+            <img src="/assets/instructor-1.jpg" alt="Արամ Հակոբյան" class="instructor-card__photo">
+            <h3 class="instructor-card__name">Անթոնի Մութաֆյան</h3>
+            <p class="instructor-card__role">Front End Developer</p>
+            <p class="instructor-card__bio">
+              3+ տարվա փորձ վեբ զարգացման մեջ։
+            </p>
+            <div class="instructor-card__socials">
+              <a href="https://www.linkedin.com/in/anthony-moutafian/" class="instructor-card__social" aria-label="LinkedIn">
+                <img src="/assets/icon-linkedin.svg" alt="LinkedIn">
+              </a>
+              <a href="https://github.com/AnthonyMoutafian" class="instructor-card__social" aria-label="GitHub">
+                <img src="/assets/icon-github.svg" alt="GitHub">
+              </a>
+            </div>
+          </div>
+    <!-- FAQ section -->
+    <section class="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Հաճախ տրվող հարցեր</h2>
+          <p class="section-header__subtitle">
+            Գտիր պատասխաններ ամենահաճախ տրվող հարցերին
+          </p>
+        </div>
+
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary class="faq__question">Կարելի՞ է սովորել առանց նախապատրաստության։</summary>
+            <div class="faq__answer">
+              <p>Այո, մեր սկսնակների դասընթացները նախագծված են նրանց համար, ովքեր չունեն ծրագրավորման նախնական գիտելիքներ։ Մենք սկսում ենք հիմունքներից։</p>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">Քանի՞ ժամ օրական պետք է ուսանել։</summary>
+            <div class="faq__answer">
+              <p>Խորհուրդ ենք տալիս օրական առնվազն 2-3 ժամ նվիրել ուսուցմանը։ Սակայն դուք կարող եք ընտրել ձեզ հարմար ցանկացած ժամանակացույց։</p>
+            </div>
+          </details>
+
+    <!-- CTA section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta__content">
+          <h2 class="cta__title">Պատրա՞ստ ես սկսելու քո տեխ կարիերան</h2>
+          <p class="cta__subtitle">
+            Միացիր և վերափոխիր քո ապագան մեզ հետ
+          </p>
+          <a href="#contact" class="btn btn--primary btn--large cta__button">
+            Գրանցվել հիմա
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Կապ</h2>
+          <p class="section-header__subtitle">
+            Մենք այստեղ ենք օգնելու քեզ։ Դիմիր մեզ ցանկացած հարցով
+          </p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <div class="contact-info">
+              <h3 class="contact-info__title">Կապվիր մեզ հետ</h3>
+
+              <div class="contact-info__item">
+                <img src="/assets/icon-email.svg" alt="Էլ. փոստ" class="contact-info__icon">
+                <div class="contact-info__content">
+                  <h4 class="contact-info__label">Էլ. փոստ</h4>
+                  <p class="contact-info__text">anthony.moutafiann@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <img src="/assets/icon-phone.svg" alt="Հեռախոս" class="contact-info__icon">
+                <div class="contact-info__content">
+                  <h4 class="contact-info__label">Հեռախոս</h4>
+                  <p class="contact-info__text">+374 91 90 13 12</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <p class="footer__description">
+            Սովորիր ծրագրավորում և կառուցիր քո հաջողվող կարիերան տեխնոլոգիաների ոլորտում։
+          </p>
+        </div>
+        <div class="footer__section">
+          <h3 class="footer__title">Դասընթացներ</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Ինֆորմատիկա + Ծրագրավորում</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          © 2025 Ինֆորմ Ակադեմիա։
+        </p>
+        <div class="footer__language">
+          <span class="footer__language-label">Լեզու:</span>
+          <button class="footer__language-btn footer__language-btn--active">Հայ</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+  // Toggle mobile menu
+  const navToggle = document.getElementById("nav-toggle");
+  const navMenu = document.getElementById("nav-menu");
+  const navLinks = document.querySelectorAll(".nav__link");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("nav__list--active");
+    navToggle.classList.toggle("nav__toggle--active");
+  });
+
+  // Close menu when clicking any link
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      navMenu.classList.remove("nav__list--active");
+      navToggle.classList.remove("nav__toggle--active");
+    });
+  });
+</script>
+</body>
+</html>

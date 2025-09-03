@@ -1,0 +1,5 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="8" fill="#4F46E5"/>
+  <path d="M12 28V12h4v16h-4zm8-8v8h4v-8h-4zm8 4v4h4v-4h-4z" fill="white"/>
+  <text x="50" y="25" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#0F172A">Կոդինգ Ակադեմիա</text>
+</svg>
